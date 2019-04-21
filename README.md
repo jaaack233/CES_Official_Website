@@ -8,5 +8,5 @@ Testing URL: https://wanjun-gu.shinyapps.io/CES_Official_Website/
 | Contributor   | Email         |
 | ------------- | ------------- |
 | Wanjun Gu     | Wag001@ucsd.edu    |
-| Weihao Zeng   | Hisemail@ucsd.edu  |
+| Weihao Zeng   | w9zeng@ucsd.edu  |
 | Ruolei Dong   | hisemail@ucsd.edu  |
