@@ -14,6 +14,8 @@ function renderGallery() {
   // 'img_4.jpg',
   // 'img_5.jpg',
   // 'img_6.jpg',
+  //  path names will be appended automatically
+  //  images will appear in this order
   var strs = [
     'IMG_1.jpg',
     'IMG_10.JPG',
