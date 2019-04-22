@@ -1,6 +1,7 @@
 # CES Official Website
 UCSD Chinese Engineering Society Official Website
 
+```bash
           _____                    _____                    _____          
          /\    \                  /\    \                  /\    \         
         /::\    \                /::\    \                /::\    \        
@@ -22,6 +23,8 @@ UCSD Chinese Engineering Society Official Website
        \:::\____\               \:::\____\               \::::/    /       
         \::/    /                \::/    /                \::/    /        
          \/____/                  \/____/                  \/____/        
+
+```
 
 Testing URL: https://wanjun-gu.shinyapps.io/CES_Official_Website/
 
