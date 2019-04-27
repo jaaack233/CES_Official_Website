@@ -36,4 +36,4 @@ Photo Resource: https://photos.app.goo.gl/PNphkr12abVZuNpP8
 | Wanjun Gu     | Wag001@ucsd.edu     | UI Designer and Photographer       |
 | Weihao Zeng   | w9zeng@ucsd.edu     | UI Designer                        |
 | Ruolei Dong   | hisemail@ucsd.edu   | Operation and Maintenance Manager  |
-| Xuezheng Wang | hisemail@ucsd.edu   | Photographer                       |
+| Xuezheng Wang | xuw005@ucsd.edu     | Photographer                       |
