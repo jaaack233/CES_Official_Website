@@ -26,7 +26,8 @@ UCSD Chinese Engineering Society Official Website
 
 ```
 
-Testing URL: https://wanjun-gu.shinyapps.io/CES_Official_Website/
+Testing URL: https://wanjun-gu.shinyapps.io/CES_Official_Website
+<br>
 Photo Resource: https://photos.app.goo.gl/PNphkr12abVZuNpP8
 
 
