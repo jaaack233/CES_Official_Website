@@ -37,3 +37,4 @@ Photo Resource: https://photos.app.goo.gl/PNphkr12abVZuNpP8
 | Weihao Zeng   | w9zeng@ucsd.edu     | UI Designer                        |
 | Ruolei Dong   | r3dong@ucsd.edu     | Operation and Maintenance Manager  |
 | Xuezheng Wang | xuw005@ucsd.edu     | Photographer                       |
+| Yueqing Qiao | y2qiao@ucsd.edu     | UI Designer                       |
