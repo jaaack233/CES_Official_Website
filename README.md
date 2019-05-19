@@ -39,6 +39,7 @@ In order to work on this project, you should have <br>
 2. Adobe Dreamweaver - A frontend design tool
 3. R - A data analysis language but also used for hosting and testing
 
+### Prerequisites
 
 Install R
 ```bash
@@ -48,8 +49,6 @@ sudo apt-get install r-base
 
 Install Rstudio:
 * [Rstudio](https://www.r-project.org/) - Download Rstudio from here.
-
-### Prerequisites
 
 Packages in R that you need prior to working on this project
 
@@ -62,6 +61,10 @@ if(!require("package_name")){
   library("package_name")
 }
 ```
+
+Install Adobe Dreamweaver:
+* [Adobe Dreamweaver](https://www.adobe.com/creativecloud/catalog/desktop.html?gclid=EAIaIQobChMIgraun_ym4gIVDfDACh11vQJIEAAYASABEgIi6_D_BwE&sdid=JRSIX&mv=search&ef_id=EAIaIQobChMIgraun_ym4gIVDfDACh11vQJIEAAYASABEgIi6_D_BwE:G:s&s_kwcid=AL!3085!3!341341780238!e!!g!!adobe%20dreamweaver) - Download Adobe Dreamweaver creative cloud from here.
+
 ## Built and hosted With
 
 * [R](https://www.r-project.org/) - Testing server is running in R 
@@ -80,3 +83,6 @@ if(!require("package_name")){
 All right reserved by Chinese Engineering Society at UCSD.
 
 ## Acknowledgments
+
+UCSD Chinese Engineering Society Crew 2018 - 2019
+* [Colorlib](https://colorlib.com/) - Informational and well-designed templates
