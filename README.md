@@ -85,4 +85,5 @@ All right reserved by Chinese Engineering Society at UCSD.
 ## Acknowledgments
 
 UCSD Chinese Engineering Society Crew 2018 - 2019
-* [Colorlib](https://colorlib.com/) - Informational and well-designed templates
+<br>
+Colorlib - Informational and well-designed templates
