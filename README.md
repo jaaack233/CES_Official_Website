@@ -26,7 +26,7 @@ UCSD Chinese Engineering Society Official Website
 
 ```
 
-Testing URL: https://wanjun-gu.shinyapps.io/CES_Official_Website
+Deployed at: ucsdces.com
 <br>
 Photo Resource: https://photos.app.goo.gl/PNphkr12abVZuNpP8
 <br>
@@ -76,8 +76,6 @@ Install Adobe Dreamweaver:
 | Contributor   | Email         | Role         | 
 | ------------- | ------------- |------------- |
 | Wanjun Gu     | Wag001@ucsd.edu     | UI Designer and Photographer       |
-| Weihao Zeng   | w9zeng@ucsd.edu     | UI Designer                        |
-| Ruolei Dong   | r3dong@ucsd.edu     | Operation and Maintenance Manager  |
 | Xuezheng Wang | xuw005@ucsd.edu     | Photographer                       |
 
 All right reserved by Chinese Engineering Society at UCSD.
