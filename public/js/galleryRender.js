@@ -46,7 +46,8 @@ function renderGallery() {
     'IMG_27.jpg',
     'IMG_28.jpg',
     'IMG_29.jpg',
-    'IMG_30.jpg'
+    'IMG_30.jpg',
+    'IMG_12345.jpg'
   ];
 
   var node = document.getElementById('gallery-content');
