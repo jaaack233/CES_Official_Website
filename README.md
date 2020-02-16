@@ -67,13 +67,14 @@ Install Adobe Dreamweaver:
 
 ## Built and hosted With
 
+* [Firebase](https://firebase.google.com/) - Cloud hosting server powered by Google
 * [R](https://www.r-project.org/) - Testing server is running in R 
-* [R Shiny](https://shiny.rstudio.com/) - Shiny hosting server
+* [R Shiny](https://shiny.rstudio.com/) - Shiny test hosting server
 * [Adobe Dreamweaver](https://www.adobe.com/products/dreamweaver.html?sdid=KKQTJ&mv=search&ef_id=EAIaIQobChMIqvD6zfqm4gIVDtvACh04UQ-9EAAYASAAEgIbWvD_BwE:G:s&s_kwcid=AL!3085!3!341341780235!e!!g!!adobe%20dreamweaver&gclid=EAIaIQobChMIqvD6zfqm4gIVDtvACh04UQ-9EAAYASAAEgIbWvD_BwE) - Frontend design using Adobe Dreamweaver
 
 ## Contributors
 
-| Contributor   | Email         | Role         | 
+| Contributor   | Email         | Role         |
 | ------------- | ------------- |------------- |
 | Wanjun Gu     | Wag001@ucsd.edu     | UI Designer and Photographer       |
 | Xuezheng Wang | xuw005@ucsd.edu     | Photographer                       |
