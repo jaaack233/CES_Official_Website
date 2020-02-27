@@ -312,7 +312,7 @@ h1, .h1 {
   font-size: 2.5rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 2rem;}
 
 h3, .h3 {
   font-size: 1.75rem; }
@@ -7420,7 +7420,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: 30px;
-  font-family: "Gaegu", cursive; }
+  font-family: "Ubuntu", regular; }
 
 .bg-image, .ftco-cover {
   background-size: cover;
@@ -7763,7 +7763,7 @@ textarea.form-control {
     margin-bottom: 40px;
     letter-spacing: .1em;
     color: #fff !important;
-    font-family: "Gaegu", cursive; }
+    font-family: "Ubuntu", regular; }
   .footer .block-21 .heading a {
     color: #fff !important; }
     .footer .block-21 .heading a:hover {
@@ -8704,7 +8704,7 @@ textarea.form-control {
     font-size: 40px;
     line-height: 1.1;
     margin-bottom: 50px;
-    font-family: "Gaegu", cursive; }
+    font-family: "Ubuntu", regular; }
     @media (min-width: 768px) {
       .block-30 .heading {
         font-size: 80px; } }
