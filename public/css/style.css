@@ -7712,6 +7712,13 @@ textarea.form-control {
   width: 50%;
   padding: 10px; }
 
+.person-donate .donate-amount-long > div {
+  width: 100%;
+  padding: 10px; }
+
+.person-donate .donate-amount-long .label {
+  background: #f2f2f2; }
+
 .person-donate .donate-amount .label {
   background: #f2f2f2; }
 
