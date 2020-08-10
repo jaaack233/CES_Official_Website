@@ -76,8 +76,9 @@ Install Adobe Dreamweaver:
 
 | Contributor   | Email         | Role         |
 | ------------- | ------------- |------------- |
-| Wanjun Gu     | Wag001@ucsd.edu     | UI Designer and Photographer       |
-| Yueqing Qiao | y2qiao@ucsd.edu     | Designer                       |
+| Wanjun Gu     | wag001@ucsd.edu     | UI Designer and Photographer       |
+| Yueqian Ma    | yum001@ucsd.edu     | Developer                          |
+| Yueqing Qiao  | y2qiao@ucsd.edu     | Designer                           |
 | Xuezheng Wang | xuw005@ucsd.edu     | Photographer                       |
 
 
