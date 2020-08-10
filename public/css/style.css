@@ -7493,6 +7493,37 @@ h1, h2, h3, h4, h5,
       display: block;
       margin-bottom: 5px; }
 
+
+/*changed arrow from center to sides*/
+.block-11 .owl-stage{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+      
+.block-11 .owl-nav .owl-prev, .block-11 .owl-nav .owl-next {
+  display: inline-block;
+  padding: 20px;
+  font-size: 45px;
+  top: 35%;
+}
+
+.block-11 .owl-nav .owl-prev.disabled, .block-11 .owl-nav .owl-next.disabled{
+  opacity: .2;
+}
+
+.owl-prev, .owl-next{
+  position: absolute;
+}
+
+.owl-prev{
+  left: -10%;
+}
+.owl-next{
+  right: -10%;
+}
+
+/*Old code from owl carousal*/
+/* 
 .block-11 .owl-stage {
   padding-top: 50px;
   padding-bottom: 50px; }
@@ -7511,7 +7542,7 @@ h1, h2, h3, h4, h5,
     padding: 20px;
     font-size: 30px; }
     .block-11 .owl-nav .owl-prev.disabled, .block-11 .owl-nav .owl-next.disabled {
-      opacity: .2; }
+      opacity: .2; } */
 
 .btn {
   cursor: pointer;
