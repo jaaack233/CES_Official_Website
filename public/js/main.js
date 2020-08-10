@@ -91,10 +91,23 @@ $(document).ready(function($) {
 	    center: false,
 	    items: 1,
 	    loop: false,
-			stagePadding: 0,
-	    margin: 30,
-	    nav: true,
-			navText: ['<span class="icon-chevron-left">', '<span class="icon-chevron-right">'],
+		stagePadding: 0,
+	    margin: 50,
+		nav: true,
+		slideBy: 3,
+		dots: true,
+		dotsEach: 3,
+		dotsData: false,
+		autoplay: false,
+
+
+
+		pagination:false,
+		navigation:true,
+
+
+		navText: ['<span class="icon-chevron-left">', '<span class="icon-chevron-right">'],
+		//navContainer: '.block-11 .owl-nav',
 	    responsive:{
         600:{
         	stagePadding: 0,
