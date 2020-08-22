@@ -9137,13 +9137,13 @@ textarea.form-control {
 
 
 
-    #footer_icon_container {
-      height: 70px;
-      margin-bottom: 30px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
+  #footer_icon_container {
+    height: 70px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
   @media only screen and (max-width: 1200px) {
     .homepage_footer_widgets {
@@ -9156,7 +9156,7 @@ textarea.form-control {
       border-radius: 50%;
       float: left;
       margin-top: 20px;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       margin-left: 10px;
       margin-right: 10px;
       padding: 10px;
@@ -9177,27 +9177,67 @@ textarea.form-control {
       border-radius: 50%;
       float: left;
       margin-top: 20px;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       margin-left: 10px;
       margin-right: 10px;
       padding: 10px;
       transition: 0.5s;
       cursor: pointer;
     }
+
+    .navbar-brand {
+      display: inline-block;
+      padding-top: 0.3125rem;
+      padding-bottom: 0.3125rem;
+      margin-right: 1rem;
+      font-size: 1rem;
+      line-height: inherit;
+      white-space: nowrap; }
+      .navbar-brand:hover, .navbar-brand:focus {
+        text-decoration: none; }
   }
 
+
+  #wechat {
+    width: 302px;
+    height: 500px;
+    position: absolute;
+    top: -500px;
+    left: -127px;
+    opacity: 0;
+    transition: 0.5s ease;
+    z-index: -1;
+  }
+
+
   @media only screen and (max-width: 600px) {
+    .navbar-brand {
+      display: inline-block;
+      padding-top: 0.3125rem;
+      padding-bottom: 0.3125rem;
+      margin-right: 1rem;
+      font-size: 1.2rem;
+      line-height: inherit;
+      white-space: nowrap; }
+      .navbar-brand:hover, .navbar-brand:focus {
+        text-decoration: none; }
+
+
     #wechat {
-      width: 300px;
+      width: 181px;
       height: 300px;
       position: absolute;
       top: -300px;
-      left: -200px;
+      left: -65px;
       opacity: 0;
-      transition: 0.5s;
+      transition: 0.5s ease;
       z-index: -1;
     }
   }
+
+
+
+
 
     .homepage_footer_widgets {
       height: 30px;
@@ -9220,7 +9260,7 @@ textarea.form-control {
      cursor: pointer;
    }
    .homepage_footer_icons:hover {
-     transform: scale(1.1); 
+     transform: scale(1.2); 
      cursor: pointer;
      display: block;
     }
@@ -9259,14 +9299,5 @@ textarea.form-control {
     background-size: cover;
   }
   
-  #wechat {
-    width: 302px;
-    height: 500px;
-    position: absolute;
-    top: -500px;
-    left: -127px;
-    opacity: 0;
-    transition: 0.5s ease;
-    z-index: -1;
-  }
+
 
