@@ -7793,7 +7793,7 @@ textarea.form-control {
 
 .footer {
   background: #404040;
-  padding: 8em 0;
+  padding: 6em 0;
   color: #fff; }
   .footer .heading-section {
     font-size: 20px;
@@ -9132,3 +9132,141 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+
+    #footer_icon_container {
+      height: 70px;
+      margin-bottom: 30px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+  @media only screen and (max-width: 1200px) {
+    .homepage_footer_widgets {
+      height: 20px;
+      width: 20px;
+    }
+    
+    .homepage_footer_icons {
+      background-color: grey;
+      border-radius: 50%;
+      float: left;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .homepage_footer_widgets {
+      height: 20px;
+      width: 20px;
+    }
+  
+    .homepage_footer_icons {
+      background-color: grey;
+      border-radius: 50%;
+      float: left;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #wechat {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      top: -300px;
+      left: -200px;
+      opacity: 0;
+      transition: 0.5s;
+      z-index: -1;
+    }
+  }
+
+    .homepage_footer_widgets {
+      height: 30px;
+      width: 30px;
+    }
+
+   .homepage_footer_icons {
+     background-color: grey;
+     border-radius: 50%;
+     float: left;
+     margin-top: 20px;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 10px;
+     transition: transform 0.5s;
+     /* transition-property: all;
+     transition-duration: 0.5s;
+     transition-timing-function: ease;
+     transition-delay: 0s; */
+     cursor: pointer;
+   }
+   .homepage_footer_icons:hover {
+     transform: scale(1.1); 
+     cursor: pointer;
+     display: block;
+    }
+
+   #homepage_footer_widget_mail {
+     background-image: url("../images/email_white.png");
+     background-size: cover;
+   }
+   #homepage_footer_widget_github {
+    background-image: url("../images/github2.png");
+    background-size: cover;
+   }
+
+   #homepage_footer_widget_facebook {
+    background-image: url("../images/facebook2.png");
+    background-size: cover;
+  }
+  
+  #homepage_footer_widget_sponsor {
+    background-image: url("../images/hezuowoshou.png");
+    background-size: cover;
+  }
+  
+  #homepage_footer_widget_wechat {
+    background-image: url("../images/wechat.png");
+    background-size: cover;
+  }
+  
+  #homepage_footer_widget_linkedin {
+    background-image: url("../images/linkedin_white.png");
+    background-size: cover;
+  }
+
+  #homepage_footer_widget_instagram {
+    background-image: url("../images/instagram.png");
+    background-size: cover;
+  }
+  
+  #wechat {
+    width: 302px;
+    height: 500px;
+    position: absolute;
+    top: -500px;
+    left: -127px;
+    opacity: 0;
+    transition: 0.5s ease;
+    z-index: -1;
+  }
+
