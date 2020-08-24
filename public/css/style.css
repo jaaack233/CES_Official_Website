@@ -9199,11 +9199,11 @@ textarea.form-control {
 
 
   #wechat {
-    width: 302px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    top: -500px;
-    left: -127px;
+    top: -200px;
+    left: -75px;
     opacity: 0;
     transition: 0.5s ease;
     z-index: -1;
@@ -9225,9 +9225,9 @@ textarea.form-control {
 
     #wechat {
       width: 181px;
-      height: 300px;
+      height: 181px;
       position: absolute;
-      top: -300px;
+      top: -181px;
       left: -65px;
       opacity: 0;
       transition: 0.5s ease;
