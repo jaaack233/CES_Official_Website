@@ -490,6 +490,7 @@ pre {
   margin-left: 0%; }
 
 .no-gutters {
+  content-visibility: auto;
   margin-right: 0;
   margin-left: 0; }
   .no-gutters > .col,
