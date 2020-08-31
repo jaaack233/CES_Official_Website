@@ -9264,7 +9264,28 @@ textarea.form-control {
      transform: scale(1.2); 
      cursor: pointer;
      display: block;
+     background-color: rgb(143, 148, 153); 
     }
+
+    .green_icon:hover {
+    background-color: rgb(26, 173, 25); 
+    cursor: default;
+    }
+
+    .facebook_blue_icon:hover {
+    background-color: rgb(66, 103, 178); 
+    }
+    .github_black_icon:hover {
+    background-color: rgb(37, 41, 46); 
+    }
+
+    /* .mail_white_icon:hover {
+      background-color: rgb(143, 148, 153); 
+    } */
+
+
+
+
 
    #homepage_footer_widget_mail {
      background-image: url("../images/email_white.png");
