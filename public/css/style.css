@@ -9203,13 +9203,13 @@ textarea.form-control {
     width: 200px;
     height: 200px;
     position: absolute;
-    top: -200px;
+    top: -230px;
     left: -75px;
     opacity: 0;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
     z-index: -1;
   }
-
+  
 
   @media only screen and (max-width: 600px) {
     .navbar-brand {
@@ -9253,7 +9253,7 @@ textarea.form-control {
      margin-left: 10px;
      margin-right: 10px;
      padding: 10px;
-     transition: transform 0.5s;
+     transition: transform 0.4s;
      /* transition-property: all;
      transition-duration: 0.5s;
      transition-timing-function: ease;
@@ -9265,24 +9265,56 @@ textarea.form-control {
      cursor: pointer;
      display: block;
      background-color: rgb(143, 148, 153); 
+     transition: 0.4s all ease;
     }
 
     .green_icon:hover {
-    background-color: rgb(26, 173, 25); 
-    cursor: default;
+      background-color: rgb(26, 173, 25); 
+      cursor: default;
+
+      /* For Internet Explorer */ 
+      box-shadow: 0 0 0 1000px rgba(0, 0, 0, .3); 
+        
+      /* For other browsers */ 
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5); 
+      /* pointer-events: none;  */
+      transition: 0.08s all ease;
+      filter: brightness(100%);
+      
     }
 
     .facebook_blue_icon:hover {
     background-color: rgb(66, 103, 178); 
     }
+
     .github_black_icon:hover {
     background-color: rgb(37, 41, 46); 
     }
 
-    /* .mail_white_icon:hover {
-      background-color: rgb(143, 148, 153); 
-    } */
+    .ins_pink_icon::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 50%;
+  
+      background-image: linear-gradient(to bottom left, rgb(110, 26, 199), rgb(241, 81, 67), rgb(255, 251, 1) );
+  
+      transition: opacity 1s ease-in-out !important;
+      z-index: -1;
+      opacity: 0;
+    }
 
+    .ins_pink_icon:hover {
+      background-image: linear-gradient(to top left, rgb(110, 26, 199), rgb(241, 81, 67), rgb(255, 251, 1) );
+      transition: .3s all ease;
+    }
+    
+    .ins_pink_icon:hover::before{
+      opacity: 1;
+    }
 
 
 
@@ -9317,9 +9349,17 @@ textarea.form-control {
   }
 
   #homepage_footer_widget_instagram {
-    background-image: url("../images/instagram.png");
+    background-image: url("../images/instagram3.png");
     background-size: cover;
+    z-index: 1;
   }
-  
+
+
+  /* #homepage_footer_widget_instagram:hover  {
+     
+    background-image: url("../images/instagram4.png");
+    background-size: cover;
+
+  } */
 
 

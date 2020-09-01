@@ -174,7 +174,7 @@
           </div>
         </div> -->
 
-        <div class="homepage_footer_icons" onclick="window.open('https://www.instagram.com/ucsdces/')">
+        <div class="homepage_footer_icons ins_pink_icon" onclick="window.open('https://www.instagram.com/ucsdces/')">
           <div id="homepage_footer_widget_instagram" class="homepage_footer_widgets">
           </div>
         </div>
@@ -224,5 +224,16 @@
   <!-- <script src="js/google-map.js"></script> -->
   <script src="js/main.js"></script>
     
+  <script>
+      function showImg(id) {
+        document.getElementById(id).style.opacity = 1;
+        document.getElementById(id).style.zIndex = "1";
+      }
+      function hideImg(id) {
+        document.getElementById(id).style.opacity = 0;
+        document.getElementById(id).style.zIndex = "-1";
+      }
+  </script>
+  
   </body>
 </html>

@@ -304,8 +304,6 @@ $(document).ready(function($) {
 	  'format': 'd MM, yyyy',
 	  'autoclose': true
 	});
-
-
-
+	
 });
 
