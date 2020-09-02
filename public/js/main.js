@@ -94,13 +94,18 @@ $(document).ready(function($) {
 		stagePadding: 0,
 	    margin: 50,
 		nav: true,
-		slideBy: 3,
+		slideBy: 1,
 		dots: true,
-		dotsEach: 3,
+		dotsEach: 1,
 		dotsData: false,
-		autoplay: false,
-
-
+		autoplay: true,
+		loop: true,
+		rewind: false,
+		autoplayHoverPause:true,
+		// smartSpeed: 1000,
+		autoplaySpeed: 2000,
+		navSpeed: 280,
+		//added nav dots and autoplay
 
 		pagination:false,
 		navigation:true,
