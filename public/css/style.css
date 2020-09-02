@@ -6294,7 +6294,7 @@ button.bg-dark:focus {
 
 .pr-5,
 .px-5 {
-  padding-right: 3rem !important; }
+  padding-right: 2rem !important; }
 
 .pb-5,
 .py-5 {
@@ -6302,7 +6302,7 @@ button.bg-dark:focus {
 
 .pl-5,
 .px-5 {
-  padding-left: 3rem !important; }
+  padding-left: 2rem !important; }
 
 .m-auto {
   margin: auto !important; }
@@ -7593,6 +7593,38 @@ h1, h2, h3, h4, h5,
       background: #fff;
       border-color: #fff;
       color: #000; }
+
+@media (max-width: 500px){
+  .btn{
+    position:relative; 
+    left: 50%; 
+    transform: translateX(-50%);/*centers the text and link (Connect With Us button) in the middle of page*/
+  }
+
+  .block-11 .owl-nav .owl-next {/*better positioning of left and right recent events arrow on mobile*/
+    display: inline-block;
+    padding: 20px 0px 20px 20px;
+    font-size: 35px;
+    top: 18%;
+    right: -25px;
+  }
+
+  .block-11 .owl-nav .owl-prev {
+    display: inline-block;
+    padding: 20px 20px 20px 5px;
+    font-size: 35px;
+    top: 18%;
+  }
+
+  .ftco-navbar-light.scrolled {/*resets style, smoother scrolling on mobile*/
+    right: initial;
+    left: initial;
+    top: initial;
+    margin-top: initial;
+    background: initial !important;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
+}
 
 .form-control {
   background: #fff !important;
@@ -9225,11 +9257,11 @@ textarea.form-control {
 
 
     #wechat {
-      width: 181px;
-      height: 181px;
+      width: 140px;
+      height: 140px;
       position: absolute;
-      top: -181px;
-      left: -65px;
+      top: -170px;
+      left: -45px;
       opacity: 0;
       transition: 0.5s ease;
       z-index: -1;
@@ -9311,7 +9343,7 @@ textarea.form-control {
       background-image: linear-gradient(to top left, rgb(110, 26, 199), rgb(241, 81, 67), rgb(255, 251, 1) );
       transition: .3s all ease;
     }
-    
+
     .ins_pink_icon:hover::before{
       opacity: 1;
     }
@@ -9361,5 +9393,7 @@ textarea.form-control {
     background-size: cover;
 
   } */
-
-
+html{
+  overflow-x: hidden;
+}
+  
