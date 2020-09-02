@@ -7617,6 +7617,7 @@ h1, h2, h3, h4, h5,
   }
 
   .ftco-navbar-light.scrolled {/*resets style, smoother scrolling on mobile*/
+    position: relative;
     right: initial;
     left: initial;
     top: initial;
