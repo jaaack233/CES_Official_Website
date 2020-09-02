@@ -9417,7 +9417,62 @@ textarea.form-control {
     background-size: cover;
 
   } */
-html{
-  overflow-x: hidden;
-}
+  html{
+    overflow-x: hidden;
+  }
   
+  #easter_egg1{
+    background: linear-gradient(to right, rgb(239, 255, 19), rgb(251, 0, 0) 50%, rgb(0, 0, 0) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 900ms ease;
+  }
+
+  #easter_egg1:hover{
+    background-position: 0 100%;
+  }
+
+  #easter_egg2{
+    background: linear-gradient(to right, rgb(255, 19, 90), rgb(109, 0, 251) 50%, rgb(0, 0, 0) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 900ms ease;
+  }
+
+  #easter_egg2:hover{
+    background-position: 0 100%;
+  } 
+
+  #easter_egg3{
+    background: linear-gradient(to right, rgb(111, 0, 255), rgb(182, 200, 250) 50%, rgb(255, 255, 255) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 200ms ease;
+  }
+
+  #easter_egg3:hover{
+    background-position: 0 100%;
+  } 
+
+  #easter_egg4{
+    background: linear-gradient(to right, rgb(255, 0, 34), rgb(248, 219, 53) 50%, rgb(255, 255, 255) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 200ms ease;
+  }
+
+  #easter_egg4:hover{
+    background-position: 0 100%;
+  } 
