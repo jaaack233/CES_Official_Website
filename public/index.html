@@ -328,5 +328,26 @@
       }
   </script>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCVrfJ4RNa0Zs73agmk1eBWJ8U5ox1fg5A",
+      authDomain: "chinese-engineering-society.firebaseapp.com",
+      databaseURL: "https://chinese-engineering-society.firebaseio.com",
+      projectId: "chinese-engineering-society",
+      storageBucket: "chinese-engineering-society.appspot.com",
+      messagingSenderId: "432146520827",
+      appId: "1:432146520827:web:dd4a80d73d89ac50"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
   </body>
 </html>
